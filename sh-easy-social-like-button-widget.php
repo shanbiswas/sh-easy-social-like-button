@@ -54,6 +54,7 @@
         }
         
         function load_scripts() {
+            wp_enqueue_style( 'style_sheet', plugin_dir_url(__FILE__).'shwsbw_style_test.css', '' );
             wp_enqueue_style( 'style_sheet', plugin_dir_url(__FILE__).'shwsbw_style.css', '' );
             wp_enqueue_script( 'upload_jquery', plugin_dir_url(__FILE__).'shwsbw_script.js', array( 'jquery' ), sh_easy_social_button_widget_version, true );
         }
