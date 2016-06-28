@@ -1,4 +1,6 @@
 === sh easy social like button ===
+Contributors: shan
+Author URI: https://in.linkedin.com/in/santanubiswas925
 Tags: social, social button, social follow
 Requires at least: 2.7
 Tested up to: 4.5
